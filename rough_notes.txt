@@ -1,0 +1,25 @@
+Design Notes:
+Page:
+1. Show static information about the role
+    1. Role Type
+    2. Company Information
+    3. Account person information who listed the role
+2. Show dynamic information about the role (including your candidates)
+    1. How many positions for the role are filled out
+    2. Possibly a timeline for candidates submitted (if we already have access to greenhouse)
+3. Show information about benefit to the recruiter
+    1. Monetary benefit
+4. Submit candidate button
+
+Submit Candidate Modal
+1. Table of candidates to select (Match score) - High, Med, Low
+    1. Adjust match score, why you think match score if low
+    2. If grid is empty, no candidates, button to recruit candidates that navigates to linked in to source candidates
+        1. Filter candidate’s the have already been submitted (show case candidates)
+2. Autofills the candidate’s stuff from the initial screen
+3. Review specific questions about the job.
+
+Submit Candidate API
+1. Get user email, and query for candidate on greenhouse
+    1. If user is not a candidate, create them as a candidate
+2. Submit application via green house api
